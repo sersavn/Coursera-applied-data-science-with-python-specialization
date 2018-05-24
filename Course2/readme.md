@@ -1,5 +1,5 @@
 # Course 2
-Current folder contains 2nd course of the Coursera specialization named Applied Data Science with Python.
+Current folder contains 2nd course of the Coursera specialization named Applied Data Science with Python. You can find assignments, lectures and data related to the Course2 in the current folder.
 
 ## Assignment 1
 There is no assignment 1 :)
