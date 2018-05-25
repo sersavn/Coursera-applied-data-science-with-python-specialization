@@ -1,5 +1,5 @@
 # Course 2
-Current folder contains 2nd course of the Coursera specialization named Applied Data Science with Python.
+Current folder contains 2nd course of the Coursera specialization named Applied Data Science with Python. You can find assignments, lectures and data related to the Course2 in the current folder.
 
 ## Assignment 1
 There is no assignment 1 :)
@@ -17,4 +17,4 @@ Assignment 2 figure with higher resolution is [here](https://github.com/sersavn/
 Aim of the assignment 2.5 or practical asssignment is to apply [multiple subplots](https://github.com/sersavn/Applied-Data-Science-with-Python/blob/master/Course2/Assignment2_5%20animated%20subplots.ipynb) and [animation](https://github.com/sersavn/Applied-Data-Science-with-Python/blob/master/Course2/Assignment2_5%20Aanimation%20test.mp4) in the matplotlib
 
 ## Assignment 3
-Aim of the [assignment 3](https://github.com/sersavn/Applied-Data-Science-with-Python/blob/master/Course2/Assignment%203.ipynb) is to deal with the confidence intervals while the errorbars are overlapping each other. You can imagine that Y axis is related to the mean number of votes in different areas (real errorplot for votes would be much lower, that is why you need to imagine) X axis is year. Colorbar on the right is showing probablity that the amount of votes will be lower (or higher) and deals with uncertainty. 
+Aim of the [assignment 3](https://github.com/sersavn/Applied-Data-Science-with-Python/blob/master/Course2/Assignment%203.ipynb) is to deal with the confidence intervals while the errorbars are overlapping each other. You can imagine that Y axis is related to the mean number of votes in different areas (real errorplot for votes would be much lower, that is why you need to imagine) X axis is year. Colorbar on the right is showing color related to the probablity in range from 0 to 1. Color of the particular barplot is showing probability that the amount of votes will be lower than desired value (or higher than desired value) and deals with uncertainty. Desired value is illustrated as yellow horizontal line. Figure itself is [here](https://github.com/sersavn/Applied-Data-Science-with-Python/blob/master/Course2/Assignment3.png).
