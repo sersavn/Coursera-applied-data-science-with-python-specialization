@@ -1,6 +1,6 @@
 digraph Tree {
 node [shape=box, style="filled", color="black"] ;
-0 [label="mean concave points <= 0.049\nsamples = 426\nvalue = [159, 267]\nclass = benign", fillcolor="#399de567"] ;
+0 [label="mean concave points <= 0.0489\nsamples = 426\nvalue = [159, 267]\nclass = benign", fillcolor="#399de567"] ;
 1 [label="worst area <= 952.9\nsamples = 260\nvalue = [13, 247]\nclass = benign", fillcolor="#399de5f2"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
 2 [label="area error <= 38.885\nsamples = 252\nvalue = [7, 245]\nclass = benign", fillcolor="#399de5f8"] ;
@@ -21,7 +21,7 @@ node [shape=box, style="filled", color="black"] ;
 8 -> 9 ;
 10 [label="samples = 14\nvalue = [0, 14]\nclass = benign", fillcolor="#399de5ff"] ;
 9 -> 10 ;
-11 [label="worst smoothness <= 0.166\nsamples = 16\nvalue = [13, 3]\nclass = malignant", fillcolor="#e58139c4"] ;
+11 [label="worst smoothness <= 0.1657\nsamples = 16\nvalue = [13, 3]\nclass = malignant", fillcolor="#e58139c4"] ;
 9 -> 11 ;
 12 [label="samples = 8\nvalue = [5, 3]\nclass = malignant", fillcolor="#e5813966"] ;
 11 -> 12 ;
