@@ -1,0 +1,85 @@
+1. Select all the true statements below.
+T - Connections between a set of items in the network are called vertices. (I think its true)
+T => F - Weighted networks are used to describe networks with unequal relationships between nodes.
+F - An undirected graph is a good choice to present a network with asymmetric relationships between nodes.
+T - When there are only two opposite relationships between nodes, a signed network is a good representation. (I think its true)
+
+2. A network that has parallel edges (a pair of nodes with different types of concurrent relationships) is called a ________.
+F - Directed Network
+F - Weighted Network
+F - Signed Network
+T - Multigraph
+
+3. Suppose we want to plot a network representing a small food web for students in a biology class. 
+In order to give them a better understanding of the network, we want to show who is the predator and who is the prey. 
+For those predators who have multiple options for prey, we also want to represent the predator’s preferences 
+(i.e. which prey it likes most or second most). Choose the most appropriate type of network.
+F - Undirected Network
+F - Directed Signed Network
+T - Directed Weighted Network
+F - Unweighted Network
+F - Signed Network
+
+4. Select all true statements:
+T - Edges can carry many labels or attributes.
+F - Suppose G is a graph and node A, B are two of G’s nodes. G.edge[‘A’][‘B’] and G.edge[‘B’][‘A’] will return the same value for all types of networks.
+T - Accessing node or edge attributes in NetworkX is the same as accessing values in a Python dictionary
+T - Suppose we have created a nx.Graph()object G with some nodes and edges. The statement G.nodes(data=True) will return a list of tuples.
+
+5. Based on the following lines of code, what is the type of G.edge['A']['C']?
+```
+import networkx as nx
+
+G=nx.MultiGraph()
+G.add_node('A',role='manager')
+G.add_edge('A','B',relation = 'friend')
+G.add_edge('A','C', relation = 'business partner')
+G.add_edge('A','B', relation = 'classmate')
+G.node['A']['role'] = 'team member'
+G.node['B']['role'] = 'engineer'
+```
+T - Dictionary
+F - List
+F - String
+
+6. Based on the following lines of code, what's the correct statement to access the edge attribute "friend"?
+```
+import networkx as nx
+
+G=nx.MultiGraph()
+G.add_node('A',role='manager')
+G.add_edge('A','B',relation = 'friend')
+G.add_edge('A','C', relation = 'business partner')
+G.add_edge('A','B', relation = 'classmate')
+G.node['A']['role'] = 'team member'
+G.node['B']['role'] = 'engineer'
+```
+F - G.edge['A']['B']['relation']
+T - G.edge['A']['B'][0]['relation']
+F - G.edge['A']['B'][1]['relation']
+F - G.edge['A']['B']['relation'][0]
+F - G.edge['A']['B']['relation'][1]
+
+7. After all lines of code below are executed, what is(are) the role(s) of node A?
+```
+import networkx as nx
+
+G=nx.MultiGraph()
+G.add_node('A',role='manager')
+G.add_edge('A','B',relation = 'friend')
+G.add_edge('A','C', relation = 'business partner')
+G.add_edge('A','B', relation = 'classmate')
+G.node['A']['role'] = 'team member'
+G.node['B']['role'] = 'engineer'
+```
+Check all that apply:
+T => F - Manager # because 'Manager' will be overwritten with 'team member'
+F - Friend
+F - Business Partner
+F - Classmate
+T - Team member
+F - Engineer
+
+8. Picture is missing, passed
+9. Picture is missing, passed
+10. Picture is missing, passed
